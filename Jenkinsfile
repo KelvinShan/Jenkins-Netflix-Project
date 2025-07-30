@@ -6,7 +6,7 @@ def COLOR_MAP = [
 pipeline{
     agent any
     environment {
-        SCANNER_HOME=tool 'squbeqube-scanner'
+        SCANNER_HOME=tool 'sonarqube-scanner'
         TMDB_V3_API_KEY = credentials('tmdb-api-key')
         IMAGE_NAME = "netflix"
         CONTAINER_NAME = "netflix" 
