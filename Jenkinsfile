@@ -14,7 +14,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git 'https://github.com/Sushmaa123/DevSecOps-Project.git'
+                git 'https://github.com/KelvinShan/Jenkins-Netflix-Project.git'
             }
         }
         stage("Sonarqube Analysis "){
