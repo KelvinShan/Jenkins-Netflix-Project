@@ -23,7 +23,7 @@ pipeline{
         stage('GIT SCM clone')
         {
             steps{
-                git branch: 'dev', url: 'https://github.com/KelvinShan/Jenkins-Netflix-Project.git'
+                git branch: 'main', url: 'https://github.com/KelvinShan/Jenkins-Netflix-Project.git'
             }
         }
         stage('Code quality')
